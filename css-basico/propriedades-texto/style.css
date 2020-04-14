@@ -1,0 +1,22 @@
+div {
+  width: 400px;
+  margin: 40px auto;
+  background: #eee;
+  padding: 10px;
+}
+
+p {
+  color: #000;
+  font: italic bold 14px /20px Helvetica, Arial;
+  text-align: left;
+  text-transform: lowercase;
+  text-indent: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none
+}

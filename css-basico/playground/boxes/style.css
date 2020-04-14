@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1000px;
+  height: 600px;
+  background: #eee;
+  margin: 150px 500px;
+  padding: 10px;
+}
+
+.card {
+  height: 145px;
+  width: 250px;
+  background: #e87d7d;
+  margin: 5px;
+}

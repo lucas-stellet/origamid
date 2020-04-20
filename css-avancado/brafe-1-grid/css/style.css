@@ -28,19 +28,44 @@ img {
 
 .menu {
   background: #252525;
-  padding: 30px;
+  padding: 25px 0;
 }
 
-.menu nav li {
-  display: inline-block;
-  float: right !important;
+.menu-nav ul {
+	float: right;
+}
+
+.menu-nav ul li {
+	display: inline-block;  
 }
 
 .menu-nav a {
+	display: block;
+	margin-left: 10px;
+	padding: 10px;
   text-decoration: none;
   color: #fff;
   font-size: 1.125em;
   padding: 10px;
+}
+
+@media (max-width: 739px) {
+	.menu-nav ul {
+		float: none;
+	}
+	
+	.menu a img {
+		margin: 0 auto;
+	}
+
+	.menu-nav ul li {
+		margin-top: 10px;
+	}
+
+	.menu-nav ul li a {		
+		margin-left: 0px;
+		padding: 8px 4.5px 0px 4.5px;
+	}
 }
 
 /* Intro */

@@ -1,0 +1,58 @@
+@media (max-width: 739px) {
+  .container {
+    flex-direction: column;
+    max-width: 300px;
+  }
+
+  .menu-nav {
+    margin: 0px;
+  }
+
+  .menu-logo {
+    margin: 0 auto 10px auto;
+  }
+
+  .menu-nav ul li a {
+    padding-left: 0px;
+  }
+
+  .intro {
+    padding: 60px 0;
+  }
+
+  .sobre-item {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .sobre > p {
+    max-width: 300px;
+    text-align: center;
+  }
+
+  .produtos-item {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .locais-img, .locais-info {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .assine form {
+    margin: 0px;
+  }
+  
+  .assine-info {
+    margin: 0 0 20px 0;
+  }
+
+  .footer p {
+    margin: 0 0 20px 0;
+  }
+
+  .footer-img {
+    margin: 0px;
+  }
+}

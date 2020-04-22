@@ -284,7 +284,7 @@ h2.produtos-mineiro::before {
   line-height: 1.4em;
 }
 
-@media (max-width: 739px) { 
+@media (max-width: 739px) {
   .footer img {
     float: none;
     margin-top: 20px;

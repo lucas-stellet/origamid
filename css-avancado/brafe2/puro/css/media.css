@@ -1,0 +1,59 @@
+@media only screen and (min-width: 740px) and (max-width: 980px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .filter {
+    width: 220px;
+  }
+
+  .products {
+    width: 460px;
+  }
+
+  .products li {
+    width: 220px;
+  }
+
+}
+@media only screen and (max-width: 736px) {
+  .container {
+    max-width: 300px;
+  }
+
+  .header-menu li {
+    display: inline;
+  }
+
+  .header-menu li a::before {
+    content: "•";
+    padding-right: 10px;
+  }
+
+  .header-menu li:first-child a::before {
+    content: "•";
+    padding-right: 10px;
+  }
+
+  .filter {
+    display: none;
+  }
+
+  .products {
+    width: 300px;
+  }
+
+  .products h1 {
+    text-align: center;
+  }  
+
+  .products li {
+    width: 130px;
+  }
+
+  .footer p {
+    max-width: 300px;
+    text-align: center;
+    display: inline-block;
+  } 
+}

@@ -26,3 +26,20 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* Super Info */
+
+.superinfo-bg {
+  background: #122ab2;
+  color: white;
+}
+
+.superinfo {
+  max-width: 1344px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.superinfo a {
+  color: white;
+}

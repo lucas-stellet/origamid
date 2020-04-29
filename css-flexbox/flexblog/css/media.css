@@ -1,0 +1,37 @@
+@media only screen and (max-width: 739px) {
+  .superinfo {
+    max-width: 300px;
+    padding: 5px 0px;
+  }
+
+  .superinfo p,
+  .superinfo a {
+    margin: 2px auto;
+    font-size: 0.875em;
+  }
+
+  .menu {
+    max-width: 300px;
+    padding: 10px 0px;
+  }
+
+  .menu-logo {
+    margin: 0 auto;
+  }
+
+  .menu-nav ul li {
+    padding: 5px;
+  }
+
+  .menu-logo a {
+    margin: 0px;
+  }
+
+  .about {
+    padding: 30px 0px;
+  }
+
+  .about-info {
+    padding: 0 20px;
+  }
+}
